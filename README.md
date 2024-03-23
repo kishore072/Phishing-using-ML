@@ -1,83 +1,59 @@
-# Phishing URL Detection 
-![image](https://user-images.githubusercontent.com/79131292/144742825-23367f0f-9e67-4c99-ba1f-b86a187675c9.png)
-![image](https://user-images.githubusercontent.com/79131292/144742785-d183f50a-52d6-4296-a43a-90a1ee3502d8.png)
+## Title of the Project
+Small description about the project like one below
+The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
 
-## Table of Content
-  * [Introduction](#introduction)
-  * [Installation](#installation)
-  * [Directory Tree](#directory-tree)
-  * [Result](#result)
-  * [Conclusion](#conclusion)
+## About
+<!--Detailed Description about the project-->
+Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
 
+## Features
+<!--List the features of the project as shown below-->
+- Implements advance neural network method.
+- A framework based application for deployment purpose.
+- High scalability.
+- Less time complexity.
+- A specific scope of Chatbot response model, using json data format.
 
-## Introduction
+## Requirements
+<!--List the requirements of the project as shown below-->
+* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
+* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
+* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
+* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
+* Version Control: Implementation of Git for collaborative development and effective code management.
+* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
+* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
 
-The Internet has become an indispensable part of our life, However, It also has provided opportunities to anonymously perform malicious activities like Phishing. Phishers try to deceive their victims by social engineering or creating mockup websites to steal information such as account ID, username, password from individuals and organizations. Although many methods have been proposed to detect phishing websites, Phishers have evolved their methods to escape from these detection methods. One of the most successful methods for detecting these malicious activities is Machine Learning. This is because most Phishing attacks have some common characteristics which can be identified by machine learning methods. To see project click [here]("/").
+## System Architecture
+<!--Embed the system architecture diagram as shown below-->
 
-
-## Installation
-The Code is written in Python 3.6.10. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
-```bash
-pip install -r requirements.txt
-```
-
-## Directory Tree 
-```
-├── pickle
-│   ├── model.pkl
-├── static
-│   ├── styles.css
-├── templates
-│   ├── index.html
-├── Phishing URL Detection.ipynb
-├── Procfile
-├── README.md
-├── app.py
-├── feature.py
-├── phishing.csv
-├── requirements.txt
+![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
 
 
-```
+## Output
 
-## Technologies Used
+<!--Embed the Output picture at respective places as shown below as shown below-->
+#### Output1 - Name of the output
 
-![](https://forthebadge.com/images/badges/made-with-python.svg)
+![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
 
-[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" width=200>](https://numpy.org/doc/) [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width=200>](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
-[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width=100>](https://matplotlib.org/)
-[<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
-[<img target="_blank" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScq-xocLctL07Jy0tpR_p9w0Q42_rK1aAkNfW6sm3ucjFKWML39aaJPgdhadyCnEiK7vw&usqp=CAU" width=200>](https://flask.palletsprojects.com/en/2.0.x/) 
+#### Output2 - Name of the output
+![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-## Result
+Detection Accuracy: 96.7%
+Note: These metrics can be customized based on your actual performance evaluations.
 
-Accuracy of various model used for URL detection
-<br>
 
-<br>
+## Results and Impact
+<!--Give the results and impact as shown below-->
+The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-||ML Model|	Accuracy|  	f1_score|	Recall|	Precision|
-|---|---|---|---|---|---|
-0|	Gradient Boosting Classifier|	0.974|	0.977|	0.994|	0.986|
-1|	CatBoost Classifier|	        0.972|	0.975|	0.994|	0.989|
-2|	XGBoost Classifier| 	        0.969|	0.973|	0.993|	0.984|
-3|	Multi-layer Perceptron|	        0.969|	0.973|	0.995|	0.981|
-4|	Random Forest|	                0.967|	0.971|	0.993|	0.990|
-5|	Support Vector Machine|	        0.964|	0.968|	0.980|	0.965|
-6|	Decision Tree|      	        0.960|	0.964|	0.991|	0.993|
-7|	K-Nearest Neighbors|        	0.956|	0.961|	0.991|	0.989|
-8|	Logistic Regression|        	0.934|	0.941|	0.943|	0.927|
-9|	Naive Bayes Classifier|     	0.605|	0.454|	0.292|	0.997|
+This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
-Feature importance for Phishing URL Detection 
-<br><br>
-![image](https://user-images.githubusercontent.com/79131292/144603941-19044aae-7d7b-4e9a-88a8-6adfd8626f77.png)
+## Articles published / References
+1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
+2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
 
 
 
 
-## Conclusion
-1. The final take away form this project is to explore various machine learning models, perform Exploratory Data Analysis on phishing dataset and understanding their features. 
-2. Creating this notebook helped me to learn a lot about the features affecting the models to detect whether URL is safe or not, also I came to know how to tuned model and how they affect the model performance.
-3. The final conclusion on the Phishing dataset is that the some feature like "HTTTPS", "AnchorURL", "WebsiteTraffic" have more importance to classify URL is phishing URL or not. 
-4. Gradient Boosting Classifier currectly classify URL upto 97.4% respective classes and hence reduces the chance of malicious attachments.
